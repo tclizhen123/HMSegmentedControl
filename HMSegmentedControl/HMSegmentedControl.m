@@ -662,7 +662,7 @@
     }
 
     self.scrollView.scrollEnabled = self.isUserDraggable;
-    self.scrollView.contentSize = CGSizeMake([self totalSegmentedControlWidth], self.frame.size.height);
+    self.scrollView.contentSize = CGSizeMake([self totalSegmentedControlWidth] + self.rightSpacing, self.frame.size.height);
 }
 
 - (NSUInteger)sectionCount {

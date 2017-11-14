@@ -216,6 +216,8 @@ typedef NS_ENUM(NSInteger, HMSegmentedControlType) {
 
 @property (nonatomic, readwrite) UIEdgeInsets enlargeEdgeInset;
 
+@property (nonatomic ) CGFloat rightSpacing;
+
 /**
  Default is YES. Set to NO to disable animation during user selection.
  */
